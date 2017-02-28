@@ -1,0 +1,63 @@
+/* carousel domi */
+.container {
+	background-color: rgba(020,200,10,0.3);
+	width :800px;
+	height: 600px;
+	margin-left: 250px;
+}
+/*dimension du carousel*/
+#carousel {
+		width: 640px;
+		/*dim + grande que 480 pour la titre*/
+		height: 490px;
+		overflow:hidden;
+		margin-top: 100px;
+		margin-left: 75px;
+		
+	}
+	#carousel ul {
+		/* dimensionneùùet de la pellicule (nb images)*/
+		/* width correspond à x (nb images) fois la largeur des images*/
+		width: 400%;
+		/* n peut aussi placer des %*/
+		/*width: 2560px;*/
+		padding: auto;
+		/*position : center;*/
+	}
+	#carousel ul li {
+		/*width carousel*/
+		width: 630px;
+		text-align: center;
+		/*height carousel*/
+		height: 480px;
+		/* none pour oter les puces sur IE */
+		list-style: none;
+		float:	left;
+	}
+	#carousel .prev, .next {
+		background-color: rgba(20,150,100,0.75);
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 100px;
+		font-weight: bold;
+		border-radius: 10px;
+
+	}
+	#carousel .next a, .prev a{
+		color: red;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 100px;
+		font-weight: bold;
+		margin-left: 5px;
+	}
+	#carousel .prev {
+		left: 270px;
+		top: 300px;
+	}
+	#carousel .next {
+		left: 1010px;
+		top: 300px;
+	}

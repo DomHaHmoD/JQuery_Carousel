@@ -1,0 +1,13 @@
+#slider {
+	display: flex;
+}
+
+#prev {
+	align-self: center;
+	margin: 0 15px 0 0;
+}
+
+#next {
+	align-self: center;
+	margin: 0 0 0 15px;
+}

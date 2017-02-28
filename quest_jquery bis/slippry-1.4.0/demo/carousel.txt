@@ -1,0 +1,8 @@
+file,apple-256267_640.jpg,
+alt,pink lady,
+file,apple-661726_640.jpg,
+alt,Ariane,
+file,green-214134_640.jpg,
+alt,grany smith,
+file,BELLE DE BOSKOOP.png,
+alt,boskoop,
